@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Calibri, sans-serif;
+    text-align: justify; 
+    font-size: 1.25em;}
+
+
+#container {
+    width: 85%;
+    margin: 0 auto;}
+
+ h1{
+    font-family: Goudy Stout, Arial Black, Stout, serif;
+    color: black;
+    background-color:#F87910;
+    text-align: center;
+    border: 5px solid black;
+    width: 90%;
+    margin: auto;
+    }
+             
+h2 {
+    font-family:Britannic Bold, Arial Black, serif;}
+        
+.nav {
+    text-align: center;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.25em;
+    border-bottom-style: double;
+    word-spacing: 12px;
+}
+
+.nav li {
+    display: inline-block;
+    
+}
+
+.intro {
+    overflow: auto;
+}
+.one {
+    overflow: auto;
+}
+
+
+.two {
+    overflow: auto;
+}
+
+.three {
+    overflow: auto;
+}
+a:link {
+        color: blue;
+        text-decoration: none; }
+        
+        a:visited {
+        color:#F87910; }
+        
+        a:hover {
+        color: rgb(30, 175, 163);
+        text-decoration: underline;}
+
+.figcaption {
+    font-style: italic;
+     padding: 2px;
+     text-align: center;}
+
