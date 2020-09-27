@@ -1,63 +1,109 @@
 body {
-    font-family: 'Sriracha', cursive;
-    text-align: justify; 
-    font-size: 1.75em;
-    font-weight: bold;
-    background-image: url("Images/buffalo.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
-    color:white;
-    overflow: auto;
+  font-family: "Sriracha", cursive, Cambria, Georgia, "Times New Roman",
+    sans serif; /*font stack added*/
+  text-align: justify;
+  font-size: 1.75em;
+  font-weight: bold;
+  background-image: url("Images/buffalo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  color: white;
+  overflow: auto;
 }
-
 
 #container {
-    width: 85%;
-    margin: 0 auto;}
+  width: 85%;
+  margin: 0 auto;
+} /*85% so that the page has a border*/
 
- h1{
-    font-family: 'Rock Salt', cursive; 
-    color: black;
-    background-color:#F87910;
-    text-align: center;
-    border: 5px solid black;
-    width: 90%;
-    margin: auto;
-    }
-             
-h2 {
-    font-family: 'Merienda', cursive;
-    color: rgb(235, 177, 18);
+h1 {
+  /*Charles Hein heading*/
+  font-family: "Rock Salt", cursive, "Franklin Gothic Medium", serif; /*font stack added*/
+  color: black;
+  background-color: #f87910;
+  text-align: center;
+  border: 5px solid black;
+  width: 90%;
+  margin: auto;
 }
-        
-.nav li{
-    text-align: center;
-    width: auto;
-    margin: 15px;
-    padding: 10px;
-    font-size: 1em;
-    font-family: 'Merienda', cursive;
-    display: inline-block;
-    }
 
-footer{
-    width: 85%;
-    margin: 0 auto;}
+h2 {
+  /*paragraph headings*/
+  font-family: "Merienda", cursive, "Trebuchet MS", "Lucida Grande", Arial,
+    sans-serif; 
+  color: black;
+  color: rgb(235, 177, 18);
+}
 
+.nav li {
+  text-align: center;
+  width: auto;
+  margin: 15px;
+  padding: 10px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+
+footer {
+  width: 85%;
+  margin: 0 auto;
+} /*85% to match the body of the page*/
 
 a:link {
-    color: yellow;
-    font-family: 'Permanent Marker', cursive;
-    text-decoration: none;
-     }
-        
-    a:visited {
-    color: whitesmoke; }
-        
-    a:hover {
-    color: rgb(30, 175, 163);
-    text-decoration: underline;}
+  color: yellow;
+  font-family: "Merienda", cursive, "Trebuchet MS", "Lucida Grande", Arial,
+    sans-serif; 
+  color: black;
+  text-decoration: none;
+}
 
+a:visited {
+  color: rgba(233, 58, 58, 0.918);
+}
+
+a:hover {
+  color: rgb(30, 175, 163);
+  text-decoration: underline;
+}
+
+.top {
+  text-align: right;
+}
+
+.captions { /*Style all figcaptions*/
+  font-family: "Sriracha", cursive, Cambria, Georgia, "Times New Roman",
+    sans serif; /*font stack added*/
+  font-style: italic;
+  font-size: 0.85em;
+  color: rgb(238, 209, 45);
+  text-align: center;
+}
+
+.sports_section{
+      overflow: auto; /* images were intruding on next paragraph*/
+}
+ 
+.lefty{
+  width: 250px;
+  border: solid grey 5px;
+ }
+ .righty {
+   width: 250px;
+   border: solid grey 5px;
+ }
+  .rightImages {
+    float:right; 
+    widows:150px;
+    text-align:center;
+        }
+
+  .leftImages{
+    float: left; 
+    widows:150px;  
+    text-align:center;
+  }
+  
