@@ -10,59 +10,76 @@ body {
   background-size: cover;
   min-height: 100%;
   min-width: 100%;
-  color: white;
+  color: black;
   overflow: auto;
 }
 
 #container {
   width: 85%;
-  margin: 0 auto;
-} /*85% so that the page has a border*/
+  margin: auto;
+  background-color: rgba(228, 242, 247, 0.5);
+  padding: 15px;
+}
 
 h1 {
   /*Charles Hein heading*/
   font-family: "Rock Salt", cursive, "Franklin Gothic Medium", serif; /*font stack added*/
   color: black;
-  background-color: #f87910;
+  background-color: rgba(248, 121, 16);
   text-align: center;
   border: 5px solid black;
   width: 90%;
   margin: auto;
+  padding: 10px;
 }
 
 h2 {
   /*paragraph headings*/
   font-family: "Merienda", cursive, "Trebuchet MS", "Lucida Grande", Arial,
-    sans-serif; 
+    sans-serif;
   color: black;
-  color: rgb(235, 177, 18);
+  color: rgb(235, 110, 8);
 }
 
 .nav li {
   text-align: center;
   width: auto;
-  margin: 15px;
-  padding: 10px;
+  margin: 10px;
+  padding: 5px;
   font-size: 1em;
   display: inline-block;
 }
 
+.nav {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  float: left;
+  width: 85%;
+}
+
+.intro {
+  padding: 15px;
+  margin-top: 80px;
+}
 
 footer {
   width: 85%;
-  margin: 0 auto;
-} /*85% to match the body of the page*/
+  margin: auto;
+  background-color: rgba(228, 242, 247, 0.5);
+  padding: 15px;
+}
 
 a:link {
   color: yellow;
   font-family: "Merienda", cursive, "Trebuchet MS", "Lucida Grande", Arial,
-    sans-serif; 
+    sans-serif;
   color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgba(233, 58, 58, 0.918);
+  color: rgba(54, 30, 30, 0.918);
 }
 
 a:hover {
@@ -74,36 +91,37 @@ a:hover {
   text-align: right;
 }
 
-.captions { /*Style all figcaptions*/
+.captions {
+  /*Style all figcaptions*/
   font-family: "Sriracha", cursive, Cambria, Georgia, "Times New Roman",
     sans serif; /*font stack added*/
   font-style: italic;
   font-size: 0.85em;
-  color: rgb(238, 209, 45);
+  color: rgb(92, 67, 14);
+  text-align: center;
+  text-decoration: none;
+}
+
+.sports_section {
+  overflow: auto; /* images were intruding on next paragraph*/
+}
+
+.lefty {
+  width: 250px;
+  border: solid grey 5px;
+}
+.righty {
+  width: 250px;
+  border: solid grey 5px;
+}
+.rightImages {
+  float: right;
+  widows: 150px;
   text-align: center;
 }
 
-.sports_section{
-      overflow: auto; /* images were intruding on next paragraph*/
+.leftImages {
+  float: left;
+  widows: 150px;
+  text-align: center;
 }
- 
-.lefty{
-  width: 250px;
-  border: solid grey 5px;
- }
- .righty {
-   width: 250px;
-   border: solid grey 5px;
- }
-  .rightImages {
-    float:right; 
-    widows:150px;
-    text-align:center;
-        }
-
-  .leftImages{
-    float: left; 
-    widows:150px;  
-    text-align:center;
-  }
-  
