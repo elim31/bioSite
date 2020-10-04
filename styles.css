@@ -112,8 +112,11 @@ a:hover {
 
 .sports_section {
   overflow: auto; /* images were intruding on next paragraph*/
+  padding: 20px;
 }
-
+.cancun_section{
+  padding:20px;
+}
 .lefty {
   width: 250px;
   border: solid grey 5px;
@@ -121,6 +124,7 @@ a:hover {
 .righty {
   width: 250px;
   border: solid grey 5px;
+  
 }
 .rightImages {
   float: right;
