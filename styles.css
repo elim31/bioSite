@@ -52,10 +52,13 @@ h2 {
 
 .nav {
   position: fixed;
+  text-align: center;
   overflow: hidden;
   top: 0;
-  float: left;
+  float: right;  
   width: 85%;
+  background-color: black;
+  margin: auto;
 }
 
 .intro {
@@ -70,16 +73,24 @@ footer {
   padding: 15px;
 }
 
+email{
+  color:  yellow;
+}
+
+email:visited{
+  color:white;
+}
+
 a:link {
   color: yellow;
   font-family: "Merienda", cursive, "Trebuchet MS", "Lucida Grande", Arial,
     sans-serif;
-  color: black;
+  color:rgba(248, 121, 16);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgba(54, 30, 30, 0.918);
+  color:white;
 }
 
 a:hover {
@@ -125,3 +136,4 @@ a:hover {
   widows: 150px;
   text-align: center;
 }
+
