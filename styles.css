@@ -116,22 +116,21 @@ a:hover {
 }
 .cancun_section{
   padding:20px;
+  overflow:auto;
 }
 .food_section{
   overflow: auto;
-  padding: auto;
+  padding: 20px;
 }
 .lefty {
   width: 250px;
   border: solid grey 5px;
-  margin: 40px;
-  overflow:auto;
+    
 }
 .righty {
   width: 250px;
   border: solid grey 5px;
-  margin: 40px;
-  overflow:auto;
+     
 }
 .rightImages {
   float: right;
