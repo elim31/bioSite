@@ -119,7 +119,7 @@ a:hover {
 }
 .food_section{
   overflow: auto;
-  padding: 20px;
+  padding: auto;
 }
 .lefty {
   width: 250px;
