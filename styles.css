@@ -128,13 +128,14 @@ a:hover {
 .righty {
   width: 250px;
   border: solid grey 5px;
-  
+  margin: 40px;
+  overflow:auto;
 }
 .rightImages {
   float: right;
   widows: 150px;
   text-align: center;
-  margin: 20px;
+  
 }
 
 .leftImages {
